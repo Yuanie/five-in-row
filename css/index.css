@@ -1,0 +1,47 @@
+.container {
+  position: absolute;
+  width: 100%;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: lightslategray;
+  margin-top: 10px;
+}
+
+#btn {
+  width: 80px;
+  height: 26px;
+  color: #888888;
+  border: 1px solid #888888;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#btn:hover {
+  color: black;
+}
+
+canvas {
+  /* 此元素将显示为块级元素，此元素前后会带有换行符 */
+  display: block;
+  /* margin: up, right, down, left  分别是上边距，右边距，下边距和左边距*/
+  /* 4个边距全是50px */
+  margin: 20px auto;
+  /* box-shadow: h-shadow v-shadow blur spread color inset; */
+  /* X轴偏移量 Y轴偏移量 [阴影模糊半径] [阴影扩展] [阴影颜色] [投影方式]; */
+  box-shadow: 2px 2px 2px #efefef, 5px 5px 5px #b9b9b9;
+}
+
+.result {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  line-height: normal;
+  color: lightcoral;
+  text-transform: capitalize;
+  text-align: center;
+}
